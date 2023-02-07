@@ -1,3 +1,12 @@
+import { BrowserRouter } from "react-router-dom";
+import { Layout } from "./layout/Layout";
+import { Home } from "./pages/Home";
+import { Router } from "./Router";
+
 export function App() {
-  return <h1 className="text-center text-3xl">Oi boa noite</h1>;
+  return (
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
+  );
 }

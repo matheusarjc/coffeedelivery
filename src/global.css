@@ -8,6 +8,23 @@
   padding: 0 3.25rem;
 }
 
+body {
+  background-color: #fafafa;
+}
+
+footer,
+header {
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.baloo {
+  font-family: "Baloo 2", cursive;
+}
+
 @media screen and (min-width: 768px) {
   .page-width {
     padding: 0 10rem;

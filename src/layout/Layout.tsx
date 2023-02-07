@@ -4,24 +4,15 @@ import {
   ReactFragment,
   ReactPortal,
 } from "react";
+import { Outlet } from "react-router-dom";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 
-export function Layout(props: {
-  children:
-    | string
-    | number
-    | boolean
-    | ReactElement<any, string | JSXElementConstructor<any>>
-    | ReactFragment
-    | ReactPortal
-    | null
-    | undefined;
-}) {
+export function Layout() {
   return (
     <div>
       <Header />
-      {props.children}
+      <Outlet />
       <Footer />
     </div>
   );
