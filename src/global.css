@@ -25,6 +25,44 @@ header {
   font-family: "Baloo 2", cursive;
 }
 
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  margin-top: 1rem;
+  position: static;
+}
+
+.iconInput:disabled {
+  opacity: 0.4;
+}
+
+.iconInput:not(:disabled):hover {
+  color: #4b2995;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 @media screen and (min-width: 768px) {
   .page-width {
     padding: 0 10rem;

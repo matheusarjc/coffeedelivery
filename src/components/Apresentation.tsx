@@ -2,7 +2,7 @@ import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
 
 export function Apresentation() {
   return (
-    <div className="py-16 flex flex-col gap-1">
+    <div className=" flex flex-col gap-1 px-[3.25rem] py-16 desktop:px-40">
       <div className="desktop:grid desktop:grid-cols-2  ">
         <div className=" gap-3 flex flex-col desktop:justify-between">
           <div className="">

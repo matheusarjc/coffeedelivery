@@ -1,9 +1,11 @@
 import { Apresentation } from "../components/Apresentation";
+import { CollectionProduct } from "../components/CollectionCoffee";
 
 export function Home() {
   return (
-    <div className="page-width">
+    <div className="">
       <Apresentation />
+      <CollectionProduct />
     </div>
   );
 }
